@@ -43,13 +43,14 @@
   1. Scan QR Code
   > ![QRcode](https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/chat.jpg)
   2. Apply for use, please write "Test" for reason!!
+  3. I will give a permission for you, and just trying to scan QR code again, if it still doesn't, which means I am busy doing other tasks, please wait with patience.  
+  4. If everything is OK, you will see a page like the second picture. Congratulations! You can start to chat now!
+
     <div style="display: flex; flex-direction: row; justify-content: space-around; align-content: center">
     <image src="https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/login1.png" width="45%"></image>
     <image src="https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/login2.png" width="45%"></image>
     </div> 
-  3. I will give a permission for you, and just trying to scan QR code again, if it still doesn't, which means I am busy doing other tasks, please wait with patience.  
-  4. If everything is OK, you will see a page like the second picture. Congratulations! You can start to chat now!
-
+  
 + Web 
   1. Visit https://kennardwang-fzeuy-1302835331.tcloudbaseapp.com/
   2. Enrollment via Email ( ***Your password must be composed with English character and number, not less than 8 characters*** )
