@@ -63,8 +63,8 @@
 ------
 ### Credit
 + [Image Series](https://wallhaven.cc/w/39v996)
-+ [SDK Document](https://www.cloudbase.net/sdk.html)
-+ [API](https://developers.weixin.qq.com/miniprogram/dev/api/)
++ [Web SDK Document](https://www.cloudbase.net/sdk.html)
++ [Wechat API](https://developers.weixin.qq.com/miniprogram/dev/api/)
 + [Cloud Development](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 ------
 ### Known Bugs
