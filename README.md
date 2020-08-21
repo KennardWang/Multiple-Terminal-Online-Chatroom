@@ -1,5 +1,16 @@
 # WeChatMiniProgram-OnlineChatRoom
 ### Demo
++ Applet  
+<div style="display: flex; flex-direction: row; justify-content: space-around; align-content: center">
+    <image src="https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/applet1.png" width="45%"></image>
+    <image src="https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/applet2.png" width="45%"></image>
+</div>  
+
++ Web
+![web](https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/web2.png)  
+
+![web](https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/web1.png)
+
 ------
 ### Development Environment
 |Description|Specification|
@@ -19,15 +30,24 @@
   + Look Through History ( ***Scroll up to refresh the latest 20 messages*** )
   + Security Check ( ***only text and image*** )
 + External Service
-  + QR code of Beta version （Applet）
-  + URL for visiting (Web)
+  + QR code of Beta version （ ***Applet*** ）
+  + URL for visiting ( ***Web*** )
 + Other Function
   + Show the number of users who have logged in
   + Allow users to share this mini-program ( ***Only homepage has this function*** )
-  + Allow to look through the full image and download (Applet)
-  + Allow users to copy text messages by long-time pressing (Applet)
+  + Allow to look through the full image and download ( ***Applet*** )
+  + Allow users to copy text messages by long-time pressing ( ***Applet*** )
 ------
-### Visit Tutorial
+### How to Visit ?
++ Applet
+  1. Scan QR Code
+  > ![QRcode](https://kennardwang.github.io/ImageSource/Project/WechatMiniProgram/chat.jpg)
+  
+
++ Web 
+  1. Visit https://kennardwang-fzeuy-1302835331.tcloudbaseapp.com/
+  2. Enrollment via Email
+  3. Verify through Link and Login
 
 ------
 ### Known Bugs
