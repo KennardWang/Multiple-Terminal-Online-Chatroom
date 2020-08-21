@@ -30,7 +30,7 @@
   + Look Through History ( ***Scroll up to refresh the latest 20 messages*** )
   + Security Check ( ***only text and image*** )
 + External Service
-  + QR code of Beta version （ ***Applet*** ）
+  + QR code of Beta version ( ***Applet*** )
   + URL for visiting ( ***Web*** )
 + Other Function
   + Show the number of users who have logged in
