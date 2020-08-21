@@ -1,0 +1,140 @@
+<view class="chatroom">
+  <view class="header">
+    <!-- display number of people in the room -->
+    <view class="left"></view>
+    <!-- room name -->
+    <view class="middle">{{groupName}}</view>
+    <!-- reserved -->
+    <view class="right"></view>
+  </view>
+
+  <!-- chats -->
+  <scroll-view 
+    class="body" 
+    scroll-y 
+    scroll-with-animation="{{scrollWithAnimation}}"
+    scroll-top="{{scrollTop}}" 
+    scroll-into-view="{{scrollToMessage}}"
+    bindscrolltoupper="onScrollToUpper"
+  >
+    <view 
+      wx:for="{{chats}}"
+      wx:key="{{item._id}}"
+      id="item-{{index}}"
+      class="message {{openId == item._openid ? 'message__self' : ''}}"
+    >
+      <image 
+        class="avatar"
+        src="{{item.avatar}}"
+        mode="scaleToFill"
+      ></image> 
+      <view class="main">
+        <view class="nickname">{{item.nickName}}</view>
+        <!-- image -->
+        <block wx:if="{{item.msgType === 'image'}}">
+          <view class="image-wrapper">
+            <view class="loading" wx:if="{{item.writeStatus > -1}}">{{item.writeStatus}}%</view>
+            <image 
+              src="{{item.tempFilePath || item.imgFileID}}" 
+              data-fileid="{{item.tempFilePath || item.imgFileID}}" 
+              class="image-content" 
+              style="{{item.imgStyle}}"
+              mode="aspectFit" 
+              bindtap="onMessageImageTap"></image>
+          </view>
+        </block>
+
+        <!-- video -->
+        <block wx:elif="{{item.msgType === 'video'}}">
+          <view class="image-wrapper">
+            <view class="loading" wx:if="{{item.writeStatus > -1}}">{{item.writeStatus}}%</view>
+            <video
+              id="myVideo"
+              src="{{item.tempFilePath || item.videoFileID}}" 
+              data-fileid="{{item.tempFilePath || item.videoFileID}}" 
+              class="image-content" 
+              style="{{item.imgStyle}}"      
+             ></video> 
+          </view>
+        </block>
+
+        <!-- record -->
+        <block wx:elif="{{item.msgType === 'record'}}">
+          <view class="audiotext-wrapper">
+            <view class="loading" wx:if="{{item.writeStatus > -1}}">{{item.writeStatus}}%</view>
+            <audio
+              src="{{item.tempFilePath || item.recordFileID}}" 
+              data-fileid="{{item.tempFilePath || item.recordFileID}}"  
+              bindtap="audioPlay"
+             > 
+             <image src="../../images/audio.png" mode="aspectFit" class="msgAudio"></image>
+            
+             </audio>
+          </view>
+        </block>
+
+        <!-- text -->
+        <block wx:else>         
+          <view class="text-wrapper">
+            <view class="loading" wx:if="{{item.writeStatus === 'pending'}}">···</view>
+            <text class="text-content" selectable="true">{{item.textContent}}</text>
+          </view>
+        </block>
+        <text>\n</text>
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- message sender -->
+  <view class="footer">
+    <view class="message-sender" wx:if="{{userInfo}}">
+
+      <!--Record-->
+      <image
+        src="../../images/record.png"
+        class="btn-send-image"
+        mode="scaleToFill"
+        bindtouchstart="recordStart"
+        bindtouchend="recordStop"
+      ></image>
+      <text style="color: transparent;">--</text>
+
+      <!--Text Field-->
+      <input 
+        class="text-input"
+        type="text"
+        confirm-type="send"
+        bindconfirm="onConfirmSendText"
+        cursor-spacing="20"
+        value="{{textInputValue}}"
+      ></input>
+
+       <!--Upload-->
+      <image
+        src="../../images/add.png"
+        class="btn-send-image"
+        mode="scaleToFill"
+        bindtap="showModal"
+      ></image>
+
+      <!-- modal  -->
+      <view class="modal modal-bottom-dialog" hidden="{{isHide}}">
+      <view class="modal-cancel" bindtap="hideModal"></view>
+      <view class="bottom-dialog-body bottom-positon" animation="{{animationData}}">
+      
+      <view class='select'>
+        <view class="opt" data-value='image' bindtap='onChooseImage'>图片</view>
+        <view class="opt" data-value='video' bindtap='onChooseVideo'>视频</view>
+      </view>
+      <view class='cancel' bindtap='getCancel'>
+        <text style="color: red; font-size: 30rpx">取消</text>
+      </view>
+ 
+      </view>
+      </view>
+      </view>
+    
+  </view>
+
+</view>
+

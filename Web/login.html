@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<title>邮箱登录</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://imgcache.qq.com/qcloud/cloudbase-js-sdk/1.0.4/cloudbase.full.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://res.wx.qq.com/open/js/cloudbase/1.0.0/cloud.js"></script>
+	<script src="index.js"></script>
+    
+	</head>
+	<body id="main">
+		<div class="container">
+			<img src="imgsrc/bg.png" alt="bg" class="bgimg">
+			<label class="title">“聊胜于无” 跨端多人聊天室</label>
+			
+				
+			<form>
+				<fieldset class="block">
+					<legend>邮箱登录</legend>
+					<input type="text" id="sEmail" placeholder="请输入注册邮箱地址">
+					<input type="text" id="sPass" placeholder="请输入注册密码">
+					<input type="button" name="login" value="登录" onclick="emailLogin()">
+					
+					<a href="./signup.html" style="float: left;">未注册请点击此处</a>
+					<a href="./reset.html" style="float: right;">重置密码</a>
+					
+				</fieldset>
+			</form>
+
+
+			<div class="link">
+				<a href="https://github.com/KennardWang?tab=repositories">源码欢迎访问Github！</a>
+			</div>
+		</div>
+			
+	</body>
+</html>

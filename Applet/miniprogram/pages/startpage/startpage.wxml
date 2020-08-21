@@ -1,0 +1,19 @@
+<view class="homepage">
+  <view><image class="bgimg" src="../../images/bg.png"></image></view>
+  <view><text id="title">聊</text><text style="color: transparent;">--;</text><text id="title2">胜于无</text></view>
+  
+  <view style="margin: 0 20 rpx">
+  <swiper style = "height: 400rpx;" indicator-dots = "{{true}}">
+    <swiper-item wx:for = "{{illust}}">
+      <image class="slide" src = "{{item.image}}"></image>
+    </swiper-item>
+  </swiper>
+  </view>
+
+  <view>
+    <button class="btn" open-type="getUserInfo" bindgetuserinfo="enterChat">授权登陆</button>
+  </view>
+
+  <label>Developer: Kennard Wang</label>
+
+</view>

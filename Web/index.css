@@ -1,0 +1,153 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.bgimg{
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    text-align: center;
+}
+
+.block{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgba(35, 35, 35, 0.3);
+}
+
+.block a{
+    color: azure;
+}
+
+.title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 10vh;
+    font-weight: 800;
+    color: azure;
+    font-family: cursive;
+    text-shadow: 0 0 10px #ccc, 0 0 20px rgb(240, 24, 143), 0 0 40px rgb(247, 87, 175), 0 0 60px #fff;
+}
+
+fieldset a:hover{
+    color: red;
+}
+
+.link{
+    position: relative;
+    top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+fieldset a{
+    font-family: cursive;
+    font-size: 2.5vh;
+    text-decoration-line: none;
+}
+
+.link a:hover{
+    color: red;
+}
+
+legend{
+    color: black;
+    font-size: 4vh;
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 0 0 5px #ccc, 0 0 10px #000, 0 0 15px #666, 0 0 20px #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form input{
+    border: 1px solid #FFF;
+    width: 80%;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+form input:hover{
+    background:#CCC;
+}
+
+.avatar{
+    top: 5vh;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.nickname{
+    font-size: 24px;
+    color: #444;
+    
+}
+
+.msgblock{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+table{
+    margin-bottom: 100px;
+}
+
+tr{
+    position: relative;
+    top: 20px;
+}
+
+td{
+    display: inline;
+    flex-direction: row;   
+    position: relative;
+    left: 245px;
+    top: 45px;
+}
+
+.info{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    font-size: 40px;
+}
+
+.image{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    height: 300px;
+    width: auto;
+}
+
+.video{
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+.record{
+    position: relative;
+    left: 60px;
+    top: 20px;
+}

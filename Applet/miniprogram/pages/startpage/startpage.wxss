@@ -1,0 +1,57 @@
+.homepage{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#title{
+  align-items: center;
+  color: #ffffff;
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 12vh;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+  animation: colorChange 10s infinite;
+}
+
+#title2{
+  align-items: center;
+  color: #000000;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 5vh;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+}
+
+label{
+  color: azure;
+  text-shadow: 0 0 5px #000, 0 0 15px #000, 0 0 40px #fff;
+  font-family: serif;
+  font-size: 3vh;
+}
+
+@keyframes colorChange{
+    0%   {color: #ffffff;}
+    17%  {color: #00ffff;}
+    33%  {color: #0000ff;}
+    50%  {color: #000000;}
+    67%  {color: #ff0000;}
+    84%  {color: #ffff00;}
+    100% {color: #ffffff;}
+}
+
+.slide{
+  height: 100%; 
+  width: 60%;
+  border-radius: 50%; 
+  background-color: rgba(201, 201, 201, 0.15);
+}
+
+.btn{
+  background-color: rgb(63, 201, 29);
+  color: azure;
+  font-size: 30rpx;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "chatroom": "/components/chatroom/chatroom"
+  },
+
+  "navigationBarTitleText": "跨端多人聊天室"
+}
