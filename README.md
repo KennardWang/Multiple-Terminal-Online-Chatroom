@@ -1,4 +1,4 @@
-# WeChatMiniProgram-OnlineChatRoom
+# Multi-End-Online-Chat-Room_WeChat-Mini-Program
 ### Demo
 + Applet  
 <div style="display: flex; flex-direction: row; justify-content: space-around; align-content: center">
