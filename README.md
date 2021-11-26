@@ -1,6 +1,13 @@
 # Multiple-Terminal-Online-Chatroom
 
+> Kennard got a summer internship of Tencent, he participated in WeChat applet development
+> and cloud development, with acquiring some useful knowledge. Kennard wanted to develop
+> an online chatroom, which could be used on both mobile phones and PCs.
+
+------
+
 ### Applet Demo
+<br>
 <div style="display: flex; flex-direction: row; justify-content: space-around; align-content: center">
     <image src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/applet1.png" width="45%"></image>
     <image src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/applet2.png" width="45%"></image>
@@ -8,82 +15,83 @@
 
 ------
 
-### Web Demo
+### Website Demo
 
-![web](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/web2.png)  
+![web](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/web1.png)  
 
-![web](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/web1.png)
+![web](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/web2.png)
 
 ------
+
 ### Development Environment
 |Description|Specification|
 |:---:|:---:|
 |System|**Windows 10**|
 |Language|**HTML, CSS, Javascript**|
-|IDE|**WeChat Developer Tools v1.03.2006090** for Applet, **VS Code** for Web|
+|IDE|**WeChat Developer Tools v1.03** ( Applet ), **Visual Studio Code** ( Website) |
 
 ------
+
 ### Functionality
-+ User Function
-  + WeChat Login & Authorization ( ***Applet Side, get users' avatar and nickname*** )
-  + Email & Password Login ( ***Web Side, can reset password*** )
-+ Chat Function
-  + Online Chat ( ***Both on PC and Applet*** )
-  + Media Resource ( ***Text, image, audio and video*** )
-  + Look Through History ( ***Scroll up to refresh the latest 20 messages*** )
-  + Security Check ( ***only text and image*** )
-+ External Service
-  + QR code of Beta version ( ***Applet*** )
-  + URL for visiting ( ***Web*** )
-+ Other Function
-  + Show the number of users who have logged in
-  + Allow users to share this mini-program ( ***Only homepage has this function*** )
-  + Allow to look through the full image and download ( ***Applet*** )
-  + Allow users to copy text messages by long-time pressing ( ***Applet*** )
++ User
+  + WeChat Login & Authorization ( for Applet, get users' avatar and nickname ).
+  + Email & Password Login ( for Website, users can reset their own passwords ).
++ Chat
+  + Online Chat ( both on Applet and Website ).
+  + Media Resource ( text, image, audio and video ).
+  + Look Through History Records ( scroll up to refresh the latest 20 messages ).
+  + Security Check ( illegal contents cannot be sent, only for text and image ).
++ Others
+  + Show the total number of users who have logged in.
+  + Allow users to share this mini-program ( only homepage has this function ).
+  + Allow to look through the full image and download ( Applet ).
+  + Allow users to paste text in text-input area by long-time pressing ( Applet ).
+
 ------
 
-### How to Visit ?
-#### Applet
+### About Visit
+**Applet**
 
 ![QRcode](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/chat.jpg)
 
-1. Scan QR Code
-2. Apply for use, please write "Test" for reason!!
-3. I will give a permission for you, and just trying to scan QR code again, if it still doesn't, which means I am busy doing other tasks, please wait with patience.  
-4. If everything is OK, you will see a page like the second picture. Congratulations! You can start to chat now!
+1. Scan the QR Code.
+2. Apply for use, you can enter "Test" for the reason.
+3. I would give a permission for you as soon as possible if I saw it, and then you can scan the QR code again. If it still does not work, which means I am busy now. Please wait patiently or try it again several hours later.  
+4. If everything is OK, you can see a page like the second picture. Congratulations! You can start to chat now!
 
+<br>
 <div style="display: flex; flex-direction: row; justify-content: space-around; align-content: center">
 <image src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login1.png" width="45%"></image>
 <image src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login2.png" width="45%"></image>
 </div> 
-  
-#### Web 
-1. Visit https://kennardwang-fzeuy-1302835331.tcloudbaseapp.com/
-2. Enrollment via Email ( ***Your password must be composed with English character and number, not less than 8 characters*** )
+<br>
+
+**Website** 
+1. Visit by https://kennardwang-fzeuy-1302835331.tcloudbaseapp.com/.
+2. Enroll with your email, and your password must be comprised with English characters and numbers, please not less than 8 characters.
 
 ![enroll](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login3.png)
 
-3. Verify through Link and Login with Email & Password ( ***Please use PC version of QQ mail*** )
+3. After enrollment, a verification email will be sent to you. You need to verify by clicking the link and then you can login with **Email** & **Password** ( recommend to use PC version of QQ mail ).
 
-![enroll](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login4.jpg)
+![login](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login4.jpg)
   
-![enroll](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login5.png)
+![login](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login5.png)
 
 ------
-### Credit
+
+### References
 + [Image Series](https://wallhaven.cc/w/39v996)
 + [Web SDK Document](https://www.cloudbase.net/sdk.html)
 + [Wechat API](https://developers.weixin.qq.com/miniprogram/dev/api/)
 + [Cloud Development](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+
 ------
-### Known Bugs
-1. The display of message will come back to the top if quitting the fullscreen of video in Applet side.
-2. Web side is only allowed to look through the chat records.
-3. Both in Applet side and Web side, if you send a text message during the time you are looking through the chat history, it will not scroll down to the bottom. Probably you can refresh it by scrolling down manually or re-entering.
-------
+
 ### License
 + [MIT License](https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom/blob/master/LICENSE)
+
 ------
+
 ### Author
 + Kennard Wang ( 2020.8.21 )
-------
