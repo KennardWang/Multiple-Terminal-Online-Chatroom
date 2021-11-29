@@ -26,9 +26,9 @@
 ### Development Environment
 |Description|Specification|
 |:---:|:---:|
-|System|**Windows 10**|
-|Language|**HTML, CSS, Javascript**|
-|IDE|**WeChat Developer Tools v1.03** ( Applet ), **Visual Studio Code** ( Website) |
+|System|Windows 10|
+|Language|HTML, CSS, Javascript|
+|IDE|WeChat Developer Tools v1.03 ( Applet ), Visual Studio Code ( Website) |
 
 ------
 
