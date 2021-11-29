@@ -54,10 +54,10 @@
 
 ![QRcode](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/chat.jpg)
 
-1. Scan the QR Code.
-2. Apply for use, you can enter "Test" for the reason.
-3. I would give a permission for you as soon as possible if I saw it, and then you can scan the QR code again. If it still does not work, which means I am busy now. Please wait patiently or try it again several hours later.  
-4. If everything is OK, you can see a page like the second picture. Congratulations! You can start to chat now!
+1. Scan the QR Code and enter the applet.
+2. Apply for use, please enter **Test** for the reason.
+3. The permission will be given as soon as possible if the application is submitted. Please wait patiently and try it again several minutes later. 
+4. If everything is OK, you will see a page like the second picture. Congratulations! You can start to chat now!
 
 <br>
 <div style="display: flex; flex-direction: row; justify-content: space-around; align-content: center">
@@ -68,7 +68,7 @@
 
 **Website** 
 1. Visit by https://kennardwang-fzeuy-1302835331.tcloudbaseapp.com/.
-2. Enroll with your email, and your password must be comprised with English characters and numbers, please not less than 8 characters.
+2. Enroll with your email, and the password must be comprised with English characters and numbers, please not less than 8 characters.
 
 ![enroll](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login3.png)
 
