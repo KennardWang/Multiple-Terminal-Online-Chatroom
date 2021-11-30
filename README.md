@@ -68,7 +68,7 @@
 
 **Website** 
 1. Visit by https://kennardwang-fzeuy-1302835331.tcloudbaseapp.com/.
-2. Enroll with your email, and the password must be comprised with English characters and numbers, please not less than 8 characters.
+2. Enroll with your email, and the password must be comprised with at least 8 English characters and numbers.
 
 ![enroll](https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login3.png)
 
