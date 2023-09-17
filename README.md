@@ -1,9 +1,21 @@
 # Multiple-Terminal-Online-Chatroom
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/KennardWang/Multiple-Terminal-Online-Chatroom" />
-  <img src="https://img.shields.io/github/license/KennardWang/Multiple-Terminal-Online-Chatroom" />
-  <img src="https://img.shields.io/badge/maintenance-No-red" />
+  <img src="https://img.shields.io/github/stars/KennardWang/Multiple-Terminal-Online-Chatroom?style=for-the-badge&color=FDEE21" />
+  &nbsp;
+  <img src="https://img.shields.io/github/forks/KennardWang/Multiple-Terminal-Online-Chatroom?style=for-the-badge&color=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/windows-0078D6?logo=windows&logoColor=white&style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </div>
 
 <br>
@@ -126,7 +138,7 @@ git clone https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom.git
 
 ## Maintainers
 
-[@KennardWang](https://github.com/KennardWang).
+![badge](https://img.shields.io/badge/maintenance-NO-EF2D5E) [@KennardWang](https://github.com/KennardWang)
 
 
 
@@ -138,4 +150,4 @@ Feel free to [open an issue](https://github.com/KennardWang/Multiple-Terminal-On
 
 ## License
 
-[MIT](LICENSE) © Kennard Wang. ( 2020.8.21 )
+[![license](https://img.shields.io/github/license/KennardWang/Multiple-Terminal-Online-Chatroom)](LICENSE) © Kennard Wang ( 2020.8.21 )
