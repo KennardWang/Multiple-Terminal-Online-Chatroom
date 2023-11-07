@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  [![description](https://img.shields.io/badge/project-Individual-1F1F1F?style=for-the-badge)](https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom)
+  [![description](https://img.shields.io/badge/project-Individual-FFB7C5?style=for-the-badge)](https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom)
   &nbsp;
   [![stars](https://img.shields.io/github/stars/KennardWang/Multiple-Terminal-Online-Chatroom?style=for-the-badge&color=FDEE21)](https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom/stargazers)
   &nbsp;
@@ -26,13 +26,13 @@
 <br>
 
 <div align=center>
-  <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/applet1.png" width="32%" />
+  <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/applet1.png" width="32%" />
   &nbsp;
-  <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/applet2.png" width="32%" />
+  <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/applet2.png" width="32%" />
   <br>
-  <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/web1.png" width="32%" />
+  <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/web1.png" width="32%" />
   &nbsp;
-  <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/web2.png" width="32%" />
+  <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/web2.png" width="32%" />
 </div>
 
 <br>
@@ -77,7 +77,7 @@ git clone https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom.git
 + Applet
 
     <div align=center>
-      <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/chat.jpg" width="30%" />
+      <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/chat.jpg" width="30%" />
     </div>
     <br>
     
@@ -88,9 +88,9 @@ git clone https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom.git
 
     <br>
     <div align=center>
-      <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login1.png" width="32%" />
+      <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/login1.png" width="32%" />
       &nbsp;
-      <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login2.png" width="32%" />
+      <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/login2.png" width="32%" />
     </div>
 
 
@@ -100,7 +100,7 @@ git clone https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom.git
 
     <br>
     <div align=center>
-      <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login3.png" width="70%" />
+      <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/login3.png" width="70%" />
     </div>
 
 
@@ -108,9 +108,9 @@ git clone https://github.com/KennardWang/Multiple-Terminal-Online-Chatroom.git
 
     <br>
     <div align=center>
-      <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login4.jpg" height="120px" />
+      <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/login4.jpg" height="120px" />
       &nbsp;
-      <img src="https://kennardwang.github.io/ImageSource/Multiple-Terminal-Online-Chatroom/login5.png" height="120px%" />
+      <img src="https://kennardwang.github.io/Image-Source/Multiple-Terminal-Online-Chatroom/login5.png" height="120px%" />
     </div>
     
 
